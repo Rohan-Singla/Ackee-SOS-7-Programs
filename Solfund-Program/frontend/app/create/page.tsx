@@ -97,9 +97,7 @@ export default function CreateCampaign() {
       return;
     }
 
-    // const deadlineTimestamp = Math.floor(new Date(formData.deadline).getTime() / 1000);
-    const deadlineTimestamp = Math.floor(Date.now() / 1000) + 100;
-
+    const deadlineTimestamp = Math.floor(new Date(formData.deadline).getTime() / 1000);
     const provider = program.provider as any;
 
     const [campaignPda] = PublicKey.findProgramAddressSync(
