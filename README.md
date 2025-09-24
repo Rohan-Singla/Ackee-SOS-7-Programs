@@ -18,8 +18,6 @@ Bonus lectures on gaming , Pinocchio and more.
 
 Capstone project (Solfund) to apply learned skills
 
-🚀 Capstone Project
-
 🛠️ Tech Stack
 
 Rust
